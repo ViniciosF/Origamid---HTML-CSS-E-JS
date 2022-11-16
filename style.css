@@ -1,9 +1,17 @@
-a{
-    color: black;
-    text-decoration: none;
-
+/*ID inicia com # */
+#introdução{
+    color: gold;
 }
 
-a{
-    font-size: 32px;
+/*Classe inicia com ponto */
+.codigo{
+    color: red;
 }
+.desing{
+    color: blue;
+}
+
+.ux{
+    color: rgb(230, 19, 124);
+}
+
