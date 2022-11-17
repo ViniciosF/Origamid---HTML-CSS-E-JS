@@ -1,17 +1,35 @@
 /*ID inicia com # */
 #introdução{
-    color: gold;
+    color: white;
 }
 
 /*Classe inicia com ponto */
 .codigo{
-    color: red;
+    color: white;
+    text-decoration: none;
 }
 .desing{
-    color: blue;
+    color: white;
+    text-decoration: none;
 }
 
 .ux{
     color: rgb(230, 19, 124);
 }
 
+h1{
+    background: red;
+}
+h2{
+    background: seagreen;
+}
+
+a{
+    background: seagreen;
+    color: white;
+    text-decoration: none;
+}
+
+.carros{
+    color: white;
+}
