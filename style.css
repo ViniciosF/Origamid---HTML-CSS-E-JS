@@ -1,16 +1,6 @@
-div{
-    background: #aaa;
-    width: 150px;
-    height: px;
-    border: 7px solid #111;
-    padding: 20px;
-    margin: 20px;
+body{
+    color: tomato;
 }
-
-h1{
-    background: #84e;
-    padding: 20px;
-    width: 150px;
-    margin: 20px;
-    border: 7px solid #111;
+a{
+    color: inherit;
 }
