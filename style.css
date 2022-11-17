@@ -1,35 +1,16 @@
-/*ID inicia com # */
-#introdução{
-    color: white;
-}
-
-/*Classe inicia com ponto */
-.codigo{
-    color: white;
-    text-decoration: none;
-}
-.desing{
-    color: white;
-    text-decoration: none;
-}
-
-.ux{
-    color: rgb(230, 19, 124);
+div{
+    background: #aaa;
+    width: 150px;
+    height: px;
+    border: 7px solid #111;
+    padding: 20px;
+    margin: 20px;
 }
 
 h1{
-    background: red;
-}
-h2{
-    background: seagreen;
-}
-
-a{
-    background: seagreen;
-    color: white;
-    text-decoration: none;
-}
-
-.carros{
-    color: white;
+    background: #84e;
+    padding: 20px;
+    width: 150px;
+    margin: 20px;
+    border: 7px solid #111;
 }
