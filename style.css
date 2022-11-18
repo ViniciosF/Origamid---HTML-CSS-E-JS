@@ -1,13 +1,43 @@
-h1{
-    text-align: center;
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2 , 1fr);
 }
 
+.titulo{
+    grid-column: 1 / -1;
+}
+
+.infos{
+    display: grid;
+    place-items: start;
+    place-self: start;
+    gap: 20px;
+
+}
+
+/*Estilos gerais*/
 body{
-    font-family: Arial;
+    font-family: arial;
+    margin: 40px;
 }
 
-h2{
-    margin-top: 0px;
+h1, p{
+    margin: 0px;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1;
+}
+
+p, span{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 4px;
 }
 
 .comprar{
@@ -16,18 +46,12 @@ h2{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
+    font-size: 20px;
+    
 }
 
-.item{
-    background: #f7f7f7;
-    border: 1px solid #e7e7e7;
+.preco{
+    background: #ddd;
+    padding: 5px 10px;
     border-radius: 4px;
-    padding: 20px;
-    display: grid;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
