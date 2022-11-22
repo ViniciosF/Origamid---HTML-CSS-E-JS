@@ -1,25 +1,16 @@
-
-body{
-    
-}
-ul{
-    display: flex; 
-    margin: 0px;
-    padding: 0px;
-    gap: 20px;
-    flex-wrap: wrap; 
-    list-style: none;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 15px 20px;
-    background: tomato;
-    border-radius: 4px;
-}
-
-
+div {
+    font-size: 150%;
+  }
+  
+  .px {
+    font-size: 32px;
+  }
+  
+  .em {
+    font-size: 2em;
+  }
+  
+  .rem {
+    font-size: 2rem;
+  }
+  
