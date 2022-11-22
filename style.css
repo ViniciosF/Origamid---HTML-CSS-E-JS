@@ -1,16 +1,19 @@
-div {
-    font-size: 150%;
-  }
+a{
+    place-self: center;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: arial;
+    text-decoration: none;
+    background: #caf;
+    border-radius: 6px;
+}
   
-  .px {
-    font-size: 32px;
-  }
-  
-  .em {
-    font-size: 2em;
-  }
-  
-  .rem {
-    font-size: 2rem;
-  }
-  
+a:hover{
+    font-size: 1.6rem;
+    background: #adf;
+    color: #147;
+}
+
+a:focus{
+    border: 2px solid red;
+}
