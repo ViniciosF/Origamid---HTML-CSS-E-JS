@@ -1,57 +1,25 @@
-.grid{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(2 , 1fr);
-}
 
-.titulo{
-    grid-column: 1 / -1;
-}
-
-.infos{
-    display: grid;
-    place-items: start;
-    place-self: start;
-    gap: 20px;
-
-}
-
-/*Estilos gerais*/
 body{
-    font-family: arial;
-    margin: 40px;
-}
-
-h1, p{
-    margin: 0px;
-}
-
-h1{
-    font-size: 48px;
-    line-height: 1;
-}
-
-p, span{
-    font-size: 20px;
-}
-
-img{
-    max-width: 100%;
-    border-radius: 4px;
-}
-
-.comprar{
-    background: black;
-    color: wheat;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 20px;
     
 }
+ul{
+    display: flex; 
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+    flex-wrap: wrap; 
+    list-style: none;
+    justify-content: center;
+    margin-top: 60px;
+}
 
-.preco{
-    background: #ddd;
-    padding: 5px 10px;
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    background: tomato;
     border-radius: 4px;
 }
+
+
